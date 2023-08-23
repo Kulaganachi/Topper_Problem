@@ -7,9 +7,9 @@ public class Main {
         long n = scanner.nextLong();
 
         if (isProbableTopperNumber(n)) {
-            System.out.println(n + " is a Probable Topper Number!");
+            System.out.println(n + "true");
         } else {
-            System.out.println(n + " is not a Probable Topper Number.");
+            System.out.println(n + "false");
         }
     }
 
